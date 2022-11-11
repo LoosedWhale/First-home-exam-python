@@ -1,5 +1,6 @@
-"""Uppgift ett 1 a) skapar en function där en if sats testar om 1 = 1.
-Om detta uppfylls så skrivs True ut annars skrivs False ut"""
+#Task one a) create a function where an if statment checks if 1= 1. 
+#If that is true print "True" else print "False
+
 
 def selectionExp():
     if 1 == 1:
@@ -8,25 +9,22 @@ def selectionExp():
         print("False")
 selectionExp()
 
-"""Uppgift ett 1 b) skapar en function. I funktionen skappas en list.
-Denna lista testar om index plats 2 har värdet 3.
-Om det uppfylls så skriver den ut Detta kommer att skrivas ut. 
-Annars skrivs Detta kommer inte att skrivas ut"""
 
-def selectionExpnrtwo():
-    selectionExptwo_list = [1, 2 ,3]
-    if selectionExptwo_list[2] == 3:
-        print("Detta kommer att skrivas ut")
+#Task one b) creats a funktion with a list. 
+#If the list index number has the value 3 then print "This will be seen" else print "This will not be seen"
+
+def selectionExpNrTwo():
+    selectionExpTwoList = [1, 2 ,3]
+    if selectionExpTwoList[2] == 3:
+        print("This will be seen")
     else:
-        print("Detta kommer inte att skrivas ut")
+        print("This will not be seen")
 
-selectionExpnrtwo()
+selectionExpNrTwo()
 
-
-"""Uppgift ett 2 a) Skapar en function. Denna funktion innehåller en lista som har värdet Sofia i sig.
-Listan är nu lika mid sig själv gånger tre.
-För att värden i Listan skriv ut värdena, i detta fall Sofia Sofia Sofia. 
-"""
+#Task one 2 a) creats a function. 
+#The functions contins a list and this list is equal to it self 3 times
+#For the values in the updated list print the values
 
 def iterationExpOne():
     SofiaList = ["Sofia "]
@@ -35,6 +33,9 @@ def iterationExpOne():
         print(x)
 iterationExpOne()
 
+#Task one 2 b) creats a funtion.
+#Creats a varible with a value
+#for the values in the varible print them (will print the letters and spaces seperated)
 """Uppgift ett 2 b) Skapar en funktion.
 En variable med ett string värde skapas.
 För värdena i stringen skriv ut dem.
