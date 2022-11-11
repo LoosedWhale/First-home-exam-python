@@ -36,11 +36,7 @@ iterationExpOne()
 #Task one 2 b) creats a funtion.
 #Creats a varible with a value
 #for the values in the varible print them (will print the letters and spaces seperated)
-"""Uppgift ett 2 b) Skapar en funktion.
-En variable med ett string värde skapas.
-För värdena i stringen skriv ut dem.
-Skriver ut all bokstäver även mellan slag på en ny rad i terminalen.
-"""
+
 def interationExpTwo():
     interationExpTwoString = "Moyai är nice "
     for x in interationExpTwoString:
