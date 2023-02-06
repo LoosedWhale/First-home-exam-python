@@ -38,7 +38,7 @@ iterationExpOne()
 #for the values in the varible print them (will print the letters and spaces seperated)
 
 def interationExpTwo():
-    interationExpTwoString = "Moyai är nice "
+    interationExpTwoString = "Moyai is nice "
     for x in interationExpTwoString:
         print(x)
 interationExpTwo()
