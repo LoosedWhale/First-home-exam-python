@@ -1,5 +1,5 @@
-#Task one a) create a function where an if statment checks if 1= 1. 
-#If that is true print "True" else print "False
+# Task one a) create a function where an if statment checks if 1 = 1. 
+# If that is true print "True" else print "False
 
 
 def selectionExp():
@@ -10,8 +10,8 @@ def selectionExp():
 selectionExp()
 
 
-#Task one b) creats a funktion with a list. 
-#If the list index number has the value 3 then print "This will be seen" else print "This will not be seen"
+# Task one b) creats a funktion with a list. 
+# If the list index number has the value 3 then print "This will be seen" else print "This will not be seen"
 
 def selectionExpNrTwo():
     selectionExpTwoList = [1, 2 ,3]
@@ -22,9 +22,9 @@ def selectionExpNrTwo():
 
 selectionExpNrTwo()
 
-#Task one 2 a) creats a function. 
-#The functions contins a list and this list is equal to it self 3 times
-#For the values in the updated list print the values
+# Task one 2 a) creats a function. 
+# The functions contins a list and this list is equal to it self 3 times
+# For the values in the updated list print the values
 
 def iterationExpOne():
     SofiaList = ["Sofia "]
